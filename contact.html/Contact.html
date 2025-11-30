@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Study Sessions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+	header, footer {
+	  text-align: center;
+      background-color: blue;
+	  color: white;
+	  }
+
+    nav li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    fieldset {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid black;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input[type="submit"] {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Images\image3.jpg" alt="Contact-Us Logo" width="200" height="300">
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+
+        <label for="email_addr">Email:</label>
+        <input type="email" name="email_addr" id="email_addr" required>
+
+        <label for="street_addr">Address:</label>
+        <input type="text" name="street_addr" id="street_addr">
+
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5" cols="40"></textarea>
+      </fieldset>
+	  
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <input type="radio" name="contact" value="email" id="contact_email">
+        <label for="contact_email">Email</label>
+
+        <input type="radio" name="contact" value="postal" id="contact_postal">
+        <label for="contact_postal">Postal Mail</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>How Can We Help in this class?</legend>
+
+        <label for="topic">Topic:</label>
+        <select id="topic" name="topic">
+          <option value="general">General Question</option>
+          <option value="tutoring">Tutoring Help</option>
+          <option value="materials">Study Materials</option>
+          <option value="technical">Technical Support</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferred Contact Method</legend>
+
+        <input type="radio" name="contact_method" value="email" id="pref_email" checked>
+        <label for="pref_email">Email</label>
+
+        <input type="radio" name="contact_method" value="phone" id="pref_phone">
+        <label for="pref_phone">Phone</label>
+
+        <input type="radio" name="contact_method" value="none" id="pref_none">
+        <label for="pref_none">No Contact</label>
+      </fieldset>
+
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+
+  <footer>
+    <p>Assignment Due Date: November 16, 2025</p>
+    <p>Email: <a href="mailto:raymondogloria@yahoo.com">raymondogloria@yahoo.com</a></p>
+  </footer>
+
+</body>
+</html>
+
+
+
+

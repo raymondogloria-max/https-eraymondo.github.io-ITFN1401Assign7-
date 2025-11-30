@@ -1,0 +1,5 @@
+function LastMdoDate () {
+	Var lastMod= document.lastModified;
+	Var lastMod= lastMode.substring (0, 15)
+	document.getElementById("displayLastMod").innerHTML= "<p>Updated" + lastMode + "</p>;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Study Sessions: Improve students' performance on tests and in classrooms.">
+  <meta name="author" content="Esperance Gloria Raymondo">
+  <title>Study Sessions - Home</title>
+
+  <link href="styles.css" rel="stylesheet">
+  
+  <script src="script.js.txt"></script>
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: lavender;
+      text-align: center;
+    }
+
+    header {
+      background-color: lavender;
+      padding: 20px 0;
+    }
+
+    header h2 {
+      color: darkblue;
+      margin: 0;
+      transition: transform 0.5s ease;
+    }
+
+    header h2:hover {
+      transform: rotate(-5deg);
+    }
+
+    nav {
+      background-color: lavender;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      flex-wrap: wrap;
+    }
+
+    nav li {
+      margin: 5px 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: darkblue;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: crimson;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 10px;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 8px;
+      max-width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.1); 
+    }
+
+    ul {
+      text-align: left;
+      margin: 20px auto;
+      padding-left: 20px;
+      max-width: 600px;
+    }
+
+    p, h2 {
+      margin: 15px auto;
+    }
+
+    footer {
+      background-color: white;
+      padding: 15px;
+      font-style: italic;
+      margin-top: 30px;
+    }
+
+    hr {
+      max-width: 80%;
+      margin: 20px auto;
+    }
+@media only screen and (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+      }
+
+      nav li {
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Created by Esperance Gloria Raymondo</h2>
+  </header>
+
+  <nav>
+    <ul>
+	 <li><a href="Homepage.html">Home</a></li>
+      <li><a href="course.html">Course</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="calendar.html">Calendar</a></li>
+      <li><a href="stemcareers.html">STEM Careers</a></li>
+	  <li><a href="file:///C:/Users/16788/Documents/index.html/contact.html/Contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <img src="Images\image2.jpg" alt="Study Session" width="200" height="300"> 
+
+    <h2>Welcome to Study Sessions!</h2>
+    <p>Study Sessions: Improve students' performance on tests and in classrooms.</p>
+
+    <img src="Images\image1.jpg" alt="Working Together" width="200" height="300">
+
+    <ul>
+      <li>Motivation is one of the keys to success.</li>
+      <li>Making mistakes is a part of learning.</li>
+      <li>Self-discipline is very important.</li>
+      <li>Using study materials and resources is key for success.</li>
+    </ul>
+
+    <p><strong>Study sessions are designed to help you on your path to success.</strong></p>
+  </main>
+
+  <hr>
+
+  <footer>
+    Due date: November 16, 2025<br>
+    Email: <a href="mailto:raymondogloria@yahoo.com">raymondogloria@yahoo.com</a>
+    <div id="lastModified"></div>
+  </footer>
+
+  <script>
+    function LastModDate () {
+	Var lastMod= document.lastModified;
+	Var lastMod= lastMode.substring (0, 15)
+	document.getElementById("displayLastMod").innerHTML= "<p>Updated" + lastMode + "</p>;
+}
+  </script>
+</body>
+</html>
